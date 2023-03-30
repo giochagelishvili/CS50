@@ -1,0 +1,22 @@
+sort1 uses: Bubble sort
+
+How do you know?: At the end of the lecture 3 we saw a little
+video about the performance of these three sorting algorithms.
+Fastest one was, of course, merge sort (took couple of seconds to sort),
+selection sort and bubble sort looked like they were going at the same speed,
+but as selection algorithm sorted more and more it became faster. At the end
+selection sort was second fastest sorting algorithm. Even though selection sort
+and bubble sort both has O(n2), selection sort is still faster than bubble sort.
+
+sort2 uses: Merge sort
+
+How do you know?: sort2 took 0m0.065s to sort reversed 10000
+and 0m0.055s to sort random 10000. sort2 was the fastest
+amongst these three sorts.
+sort1 took 0m0.344s for reversed and sort3 took 0m0.213s for reversed.
+since merge sort is fastest between these three sorting algorithms,
+I think sort2 uses merge sort.
+
+sort3 uses: Selection sort
+
+How do you know?: Explained in sort1.
